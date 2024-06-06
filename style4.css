@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contvisor{
+   width:100%;
+   height: 600px;
+   background: #429333;
+   position: relative;
+}
+
+.contvisor a{
+    position: absolute;
+bottom: 100px;
+left: 45%;
+    color: white;
+    text-decoration: none;
+    background: #feffff62;
+    font-weight: 900;
+    padding: 5px;
+    font-size: 12px;
+    margin-left: 10px;
+    font-family: arial;
+    border-radius: 10px;
+    transition: all 300ms ease;
+}
+.contvisor a:hover{
+    background: #4c9f9f89;
+}
+#visor{
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+    position: absolute;
+    width: 450px;
+    height: 300px;
+   overflow: hidden;
+}
+.contvisor h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: arial;
+}
+
+#fondo1{
+  position: absolute;
+  top: -150px;
+  left: 0;
+}
+#fondo2{
+    position: absolute;
+    top: -150px;
+    left: 450px;
+  }
+
+#moto{
+    position: absolute;
+    top: 42px;
+    left: 10px;
+
+}
+
+#moto img{
+    width: 500px;
+}
+#hola{
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    z-index: 4;
+    font-weight: 700;
+    font-family: arial;
+    transition: all 300ms ease;
+    border-radius: 50%;
+    background: white;
+    padding: 10px;
+}
+.calculatorcont{
+   background: #419333be;
+   padding-bottom: 50px;
+
+}
+.calculatorcont h1{
+    text-align: center;
+    color: white;
+    font-family: arial; 
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+.contcal{
+   
+     width: 250px;
+ margin: 0 auto;
+ margin-top: 80px;
+     padding: 20px;
+     height: 450px;
+     display: grid;
+    grid-template-columns: repeat(3,1fr);
+     align-items: center;
+     justify-content: space-between;
+    
+     background: #40706c;
+     
+     border-radius: 20px;gap: 10px;
+   
+ }
+ .contcal textarea{
+     text-align: end;
+     height: 80px;
+     resize: none;
+     border-radius: 1rem;
+     background: transparent;
+     border: 4px solid white;
+     padding: 10px;
+     font-size: 15px;
+     font-weight: 900;
+     color: rgb(166, 182, 236);
+ }
+ .contcal textarea::placeholder{
+     color: white;
+     text-transform: uppercase;
+     
+ }
+ .contcal button{
+ background: rgb(99, 228, 193);
+ border: none;
+ border-radius: 8px;
+ padding: 10px;
+ transition: 300ms all ease;
+ color: rgb(78, 151, 172);
+ font-size: 18px;
+ }
+ 
+ #result{
+     grid-column: span 3;
+ 
+ }
+ #div{
+     grid-column: 3;
+     
+ }
+ #lim{
+    grid-row: 6;
+     grid-column: 2;
+ }
+ #cal{
+    grid-column: span 3;
+ }
+ 
+ #chaymas{
+    display: grid;
+    grid-template-columns: auto 1fr;
+padding-bottom: 50px;
+background: #4d9333b1;
+position: relative;
+overflow: hidden;
+}
+#chaymas h2{
+    grid-column: span 2;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+   
+  
+}
+ 
+#men{
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 100px;
+    background: #137901;
+    cursor: pointer;
+   
+}
+#men img{
+    width: 200px;
+    height: 100px;
+    transition: 300ms ease all;
+}
+#principal{
+grid-column: 2;
+width: 400px;
+height: 300px;
+margin-top: 20%;
+margin: 0 auto;
+
+
+}
+#visorc{
+    perspective: 1000px
+}
+#principal #titulo{
+    display: none;
+}
+#visorc img{
+    width: 100%;
+ 
+   
+    box-shadow: #000 0px 0px 10px;
+    border-radius: 10px;
+    margin-top: 20%;
+   
+
+   
+ }
+
+ 
+ 
